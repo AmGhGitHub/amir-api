@@ -48,7 +48,7 @@ networks:
     driver: bridge
 
 volumes:
-  local_postgres_data: {}
+  local_postgres_data:
   local_postgres_data_backups: {}
   static_volume:
   media_volume:
