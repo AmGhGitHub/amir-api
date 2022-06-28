@@ -1,5 +1,9 @@
+# env file can't have # in a word as
+# it be reagrded as comment
+# https://serverfault.com/questions/539730/environment-variable-in-etc-environment-with-pound-hash-sign-in-the-value
+
 POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
-POSTGRES_DB="authors-live"
-POSTGRES_USER="amir"
-POSTGRES_PASSWORD="P988Amir@#"
+POSTGRES_DB=authors-live
+POSTGRES_USER=amir
+POSTGRES_PASSWORD=P988Amir@
